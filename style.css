@@ -110,13 +110,17 @@ body{
 	transform: rotateX(90deg) translateZ(150px);
 }
 
+{
 iframe src= "main.html" style= "width="1280" height="1024"
 border: 3px dashed maron"
-
-
- margin-left: auto;
-  margin-right: auto;
 }
+
+
+{
+margin-left: auto;
+ margin-right: auto;
+}
+
 .gridCentered .static,
 .gridCentered .Masonry-Premount .Collection-Item {
   position: absolute;
@@ -128,10 +132,12 @@ border: 3px dashed maron"
   width: auto !important;
 }
 
+{
 @media (min-width: 0px) and (max-width: 707px) {
   .gridCentered {
     width: 472px;
   }
+
   .gridCentered .Masonry-Premount .Collection-Item:nth-child(-n+2),
   .gridCentered .static:nth-child(-n+2) {
     position: static !important;
@@ -322,9 +328,4 @@ border: 3px dashed maron"
     display: block;
 	  
 
-
-
-
-</style>
-body {
-}
+</style> 
