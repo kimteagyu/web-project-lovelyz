@@ -1,3 +1,5 @@
+
+
 @charset "utf-8";
 /* CSS Document */
 
@@ -47,6 +49,8 @@
   button {
     margin: 20px;
   }
+
+
 
 header .logo{position: absolute; right: 35px; top: 75px;}
 header .logo img{width: 100px;}
